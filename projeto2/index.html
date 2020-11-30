@@ -1,54 +1,74 @@
-<html>
-    <body>
-        <h1 id="title">Survey</h1>
-        <p id="description">Help me know more about you!</p>
-        <form id="survey-form">
-            <div>
-                <label id="name-label" for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Name" required>
-            </div>
-            <div>
-                <label id="email-label" for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Email" required>
-            </div>
-            <div>
-                <label id="number-label" for="Age">Age</label>
-                <input type="number" name="age" id="number" placeholder="Age" min="18" max="99">
-            </div>
-            <p>How you are feeling today?</p>
-            <select name="dropdown" id="dropdown" required>
-                <option value="good">Good</option>
-                <option value="bad">Bad</option>
-            </select>
-            <p>You consider yourself:</p>
-            <label>
-                <input type="radio" name="persona" value="charming">
-                Charming
-            </label>
-            <label>
-                <input type="radio" name="persona" value="hateful">
-                Hateful
-            </label>
-            <label>
-                <input type="radio" name="persona" value="joyful">
-                Joyful
-            </label>
-            <p>What do you think about the current crisis?</p>
-            <label>
-                <input type="checkbox" value="nothing">
-                Nothing
-            </label>
-            <label>
-                <input type="checkbox" value="some things must be done">
-                Some things must be done
-            </label>
-            <label>
-                <input type="checkbox" value="I've seen worse scenarios">
-                I've seen worse scenarios
-            </label>
-            <p>Write with your own words a brief about the current situation:</p>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <input type="submit" id="submit">
-        </form>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="title">Survey</h1>
+    <p id="description">Help me know more about you!</p>
+    <form id="survey-form">
+      <div>
+        <label id="name-label" for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Name" required />
+      </div>
+      <div>
+        <label id="email-label" for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          required
+        />
+      </div>
+      <div>
+        <label id="number-label" for="Age">Age</label>
+        <input
+          type="number"
+          name="age"
+          id="number"
+          placeholder="Age"
+          min="18"
+          max="99"
+        />
+      </div>
+      <p>How you are feeling today?</p>
+      <select name="dropdown" id="dropdown" required>
+        <option value="good">Good</option>
+        <option value="bad">Bad</option>
+      </select>
+      <p>You consider yourself:</p>
+      <label>
+        <input type="radio" name="persona" value="charming" />
+        Charming
+      </label>
+      <label>
+        <input type="radio" name="persona" value="hateful" />
+        Hateful
+      </label>
+      <label>
+        <input type="radio" name="persona" value="joyful" />
+        Joyful
+      </label>
+      <p>What do you think about the current crisis?</p>
+      <label>
+        <input type="checkbox" value="nothing" />
+        Nothing
+      </label>
+      <label>
+        <input type="checkbox" value="some things must be done" />
+        Some things must be done
+      </label>
+      <label>
+        <input type="checkbox" value="I've seen worse scenarios" />
+        I've seen worse scenarios
+      </label>
+      <p>Write with your own words a brief about the current situation:</p>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <input type="submit" id="submit" />
+    </form>
+  </body>
 </html>
