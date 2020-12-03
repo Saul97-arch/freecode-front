@@ -1,69 +1,108 @@
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Berserk Action Figures</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-container">
+        <img
+          src="https://www.pngkit.com/png/full/315-3154485_publisher-gives-fans-digital-access-to-38-berserk.png"
+          alt="Guts image"
+          id="header-img"
+        />
 
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header id="header">
-            <img id="header-img" src="https://www.guaranaantarctica.com.br/media_v3/site/img/share/share.jpg?v=2" alt="guarana logo">
-            <nav id="nav-bar">
-                <ul>
-                    <li>
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="#contactus">Contact us</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="#faqs">Faq's</a>
-                    </li>
-                </ul>
-            </nav>
-            <section id="about">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec dui at velit vehicula molestie. 
-                    Donec vitae placerat nisi. Ut at egestas orci. Proin euismod lacus sed interdum finibus. 
-                    Nam volutpat condimentum ultricies. Mauris laoreet, elit in tempor gravida, dolor neque gravida ligula, 
-                    sit amet aliquam dolor velit et magna. Vivamus congue, sem vitae tincidunt pharetra, erat lorem tempor risus, 
-                    sit amet convallis nunc lectus vel libero. Proin facilisis condimentum bibendum. Integer finibus eros neque, 
-                    ac vehicula urna consectetur at. Mauris sollicitudin purus neque, sed gravida magna condimentum in. 
-                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-                    Pellentesque condimentum urna sit amet massa scelerisque, ac lobortis est varius.
-                </p>
-            </section>
-            <section id="contactus">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec dui at velit vehicula molestie. 
-                    Donec vitae placerat nisi. Ut at egestas orci. Proin euismod lacus sed interdum finibus. 
-                    Nam volutpat condimentum ultricies. Mauris laoreet, elit in tempor gravida, dolor neque gravida ligula, 
-                    sit amet aliquam dolor velit et magna. Vivamus congue, sem vitae tincidunt pharetra, erat lorem tempor risus, 
-                    sit amet convallis nunc lectus vel libero. Proin facilisis condimentum bibendum. Integer finibus eros neque, 
-                    ac vehicula urna consectetur at. Mauris sollicitudin purus neque, sed gravida magna condimentum in. 
-                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-                    Pellentesque condimentum urna sit amet massa scelerisque, ac lobortis est varius.
-                </p>
-            </section>
-            <section id="faqs">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec dui at velit vehicula molestie. 
-                    Donec vitae placerat nisi. Ut at egestas orci. Proin euismod lacus sed interdum finibus. 
-                    Nam volutpat condimentum ultricies. Mauris laoreet, elit in tempor gravida, dolor neque gravida ligula, 
-                    sit amet aliquam dolor velit et magna. Vivamus congue, sem vitae tincidunt pharetra, erat lorem tempor risus, 
-                    sit amet convallis nunc lectus vel libero. Proin facilisis condimentum bibendum. Integer finibus eros neque, 
-                    ac vehicula urna consectetur at. Mauris sollicitudin purus neque, sed gravida magna condimentum in. 
-                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-                    Pellentesque condimentum urna sit amet massa scelerisque, ac lobortis est varius.
-                </p>
-                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/WbEM55IBBjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </section>
-                <section>
-                    <h2>Lorem Ipsum</h2>
-                    <form id="form" action="https://www.freecodecamp.com/email-submit">
-                        Email: 
-                        <input type="email"  name="email" id="email" required button type="submit" placeholder="Email"> 
-                        <input button type="submit" id="submit" >
-                </section>
-        </header>
-    </body>
+        <nav id="nav-bar">
+          <a href="#prod" class="nav-link">Products</a>
+          <a href="#description" class="nav-link">About the products</a>
+          <a href="#form" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <section class="content">
+      <h2 class="presentation">The best Hand-made Berserk Action Figures!</h2>
+      <form action="" id="form">
+        <p class="contact-us">"Contact us:"</p>
+        <input
+          placeholder="Insert your email"
+          type="email"
+          name="email"
+          id="email"
+          required
+        />
+        <input id="submit" type="submit" value="Your best email!" />
+      </form>
+      <div class="video">
+        <iframe
+          id="video"
+          src="https://www.youtube.com/embed/eoH7cqzX_xY"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+  
+      <section id="description">
+        <div class="flex-container">
+          <img
+            class="incon"
+            src="https://cdn.onlinewebfonts.com/svg/img_453179.png"
+            alt="Fast shipping"
+          />
+          <h2 class="about-sub-title">Fast shipping!</h2>
+          <p class="about-p">
+            We have a network with the best delivery companies, with 30 days or less
+            your action model will be in your place, no matter where you live
+          </p>
+        </div>
+  
+        <div class="flex-container">
+          <img
+            class="incon"
+            src="https://cdn0.iconfinder.com/data/icons/business-and-finance-3-6/68/130-512.png"
+            alt="Quality"
+          />
+          <h2 class="about-sub-title">Best Materials available!</h2>
+          <p>Top notch Quality materials. Durability and great visuals guaranteed by our staff, have the best material in your hands!</p>
+        </div>
+        <div class="flex-container">
+          <img
+            class="incon"
+            src="https://img.pngio.com/download-png-toxic-clip-art-transparent-png-3622512-pinclipart-toxic-png-880_880.png"
+            alt="non toxic"
+          />
+          <h2 class="about-sub-title">Non toxic materials!</h2>
+          <p>
+            Safefy in first place, feel free to let childs play with your action
+            figure (we know you don't)😜
+          </p>
+        </div>
+      </section>
+
+      <div class="card-container" id="prod">
+          <div class="product">
+            <img src="https://cf.shopee.com.br/file/cc68b6a4aa13a6567ab63e07d4ae9a6f" alt="Action figure" class="img-content">
+            <div class="price">229.89$</div>
+          </div>
+          <div class="product">
+            <img src="https://ae01.alicdn.com/kf/HTB1QmH4X6vuK1Rjy0Faq6x2aVXai/Berserk-guts-figma-359-preto-espadachim-edi-o-pvc-figura-de-a-o-brinquedo-cole-o.jpg" alt="Action figure"  class="img-content">
+            <div class="price">238.25$</div>
+          </div>
+          <div class="product">
+            <img src="https://i.pinimg.com/originals/83/a6/9b/83a69bb72ff90c6e731de49af916170e.png" alt="Action Figure" class="img-content">
+            <div class="price">255.77$</div>
+          </div>
+      </div>
+      <footer>
+        <ul>
+          <li>Privacy</li>
+          <li>Terms</li>
+          <li>Contact</li>
+        </ul>
+      </footer>
+    </section>
+  </body>
 </html>
