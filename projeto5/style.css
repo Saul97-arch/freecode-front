@@ -1,3 +1,132 @@
-img {
-    width: 50%;
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
+
+body {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #eb3030;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  padding: 2rem;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background: #333;
+  color: #fff;
+  -moz-box-shadow: 0 3px 10px 0 #ccc;
+  -webkit-box-shadow: 0 3px 10px 0 #ccc;
+  text-shadow: 0px 0px 5px #fff;
+}
+
+.welcome-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(116, 113, 113);
+  height: 100vh;
+}
+
+.welcome-section h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.welcome-section p {
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(136, 255, 0);
+}
+
+.projects {
+  flex-direction: column;
+  background: #c74c4c;
+  padding: 3rem 0rem;
+}
+
+.projects-h2 {
+  border-bottom: 1px solid #fff;
+  padding: 3rem;
+  font-size: 3rem;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+
+.project-image {
+  width: 292px;
+  height: 50vh;
+  border-radius: 1rem;
+}
+
+.contact-section {
+  background: #1a1919;
+  height: 87vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-incon {
+  width: 20%;
+  margin: 3rem;
+}
+
+img:hover {
+  background: #333;
+  color: #fff;
+  -moz-box-shadow: 0 3px 10px 0 #ccc;
+  -webkit-box-shadow: 0 3px 10px 0 #ccc;
+  text-shadow: 0px 0px 5px #fff;
+}
+
+.p-contact-linkedin-cell {
+  position: absolute;
+  top: 124rem;
+  left: 9rem;
+}
+
+.p-contact-github-cell {
+  position: absolute;
+  top: 135rem;
+  left: 9rem;
+}
+
+.p-contact-instagram-cell {
+  position: absolute;
+  top: 146rem;
+  left: 9rem;
+}
+
+/* Display for desktop */
+
+
